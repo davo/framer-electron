@@ -1,0 +1,418 @@
+app.coffee
+assets/icons/mac/icon.icns
+assets/icons/png/icon.png
+assets/icons/win/icon.ico
+config/default.json
+framer/coffee-script.js
+framer/config.json
+framer/framer.generated.js
+framer/framer.init.js
+framer/framer.js
+framer/framer.modules.js
+framer/framer.vekter.js
+framer/images/cursor-active.png
+framer/images/cursor-active@2x.png
+framer/images/cursor.png
+framer/images/cursor@2x.png
+framer/images/icon-120.png
+framer/images/icon-152.png
+framer/images/icon-180.png
+framer/images/icon-192.png
+framer/images/icon-76.png
+framer/manifest.txt
+framer/preview.png
+framer/style.css
+framer/version
+index.html
+main.js
+modules/flowTransitions.coffee
+modules/myModule.coffee
+package-lock.json
+package.json
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libnode.dylib
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/am.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ar.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bg.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bn.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ca.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/content_shell.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/crashpad_handler
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/cs.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/da.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/de.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/el.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_GB.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_419.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/et.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fa.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fi.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fil.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fr.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/gu.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/he.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hi.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hr.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hu.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/icudtl.dat
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/id.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/Info.plist
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/it.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ja.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/kn.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ko.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lt.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lv.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/MainMenu.nib
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ml.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/mr.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ms.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/natives_blob.bin
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nb.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nl.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pdf_viewer_resources.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pl.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_BR.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_PT.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ro.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ru.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sk.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sl.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/snapshot_blob.bin
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sr.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sv.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sw.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ta.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/te.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/th.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/tr.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/uk.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/vi.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_CN.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_TW.lproj/locale.pak
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Electron Framework.framework/Versions/A
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/flowtransitions Helper EH.app/Contents/Info.plist
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/flowtransitions Helper EH.app/Contents/MacOS/flowtransitions Helper EH
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/flowtransitions Helper EH.app/Contents/PkgInfo
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/flowtransitions Helper NP.app/Contents/Info.plist
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/flowtransitions Helper NP.app/Contents/MacOS/flowtransitions Helper NP
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/flowtransitions Helper NP.app/Contents/PkgInfo
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/flowtransitions Helper.app/Contents/Info.plist
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/flowtransitions Helper.app/Contents/MacOS/flowtransitions Helper
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/flowtransitions Helper.app/Contents/PkgInfo
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Headers
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Mantle
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Modules
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Resources
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Headers/Mantle.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Headers/MTLJSONAdapter.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Headers/MTLManagedObjectAdapter.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Headers/MTLModel+NSCoding.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Headers/MTLModel.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Headers/MTLValueTransformer.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Headers/NSArray+MTLManipulationAdditions.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Headers/NSDictionary+MTLManipulationAdditions.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Headers/NSObject+MTLComparisonAdditions.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Headers/NSValueTransformer+MTLInversionAdditions.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Headers/NSValueTransformer+MTLPredefinedTransformerAdditions.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Mantle
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Modules/module.modulemap
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A/Resources/Info.plist
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Mantle.framework/Versions/A
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Modules
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/ReactiveCocoa
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Resources
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/EXTKeyPathCoding.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/EXTScope.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/metamacros.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSArray+RACSequenceAdditions.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSControl+RACCommandSupport.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSControl+RACTextSignalSupport.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSData+RACSupport.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSDictionary+RACSequenceAdditions.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSEnumerator+RACSequenceAdditions.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSFileHandle+RACSupport.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSIndexSet+RACSequenceAdditions.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSNotificationCenter+RACSupport.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSObject+RACAppKitBindings.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSObject+RACDeallocating.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSObject+RACLifting.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSObject+RACPropertySubscribing.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSObject+RACSelectorSignal.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSOrderedSet+RACSequenceAdditions.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSSet+RACSequenceAdditions.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSString+RACSequenceAdditions.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSString+RACSupport.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSText+RACSignalSupport.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSURLConnection+RACSupport.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/NSUserDefaults+RACSupport.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACBacktrace.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACBehaviorSubject.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACChannel.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACCommand.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACCompoundDisposable.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACDisposable.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACEvent.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACGroupedSignal.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACKVOChannel.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACMulticastConnection.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACQueueScheduler+Subclass.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACQueueScheduler.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACReplaySubject.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACScheduler+Subclass.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACScheduler.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACScopedDisposable.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACSequence.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACSerialDisposable.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACSignal+Operations.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACSignal.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACStream.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACSubject.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACSubscriber.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACSubscriptingAssignmentTrampoline.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACTargetQueueScheduler.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACTestScheduler.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACTuple.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/RACUnit.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Headers/ReactiveCocoa.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Modules/module.modulemap
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/ReactiveCocoa
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A/Resources/Info.plist
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/ReactiveCocoa.framework/Versions/A
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Squirrel.framework/Versions/A/Headers
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Squirrel.framework/Versions/A/Modules
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Squirrel.framework/Versions/A/Headers/NSBundle+SQRLVersionExtensions.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Squirrel.framework/Versions/A/Headers/NSProcessInfo+SQRLVersionExtensions.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Squirrel.framework/Versions/A/Headers/SQRLDownloadedUpdate.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Squirrel.framework/Versions/A/Headers/SQRLUpdate.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Squirrel.framework/Versions/A/Headers/SQRLUpdater.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Squirrel.framework/Versions/A/Headers/Squirrel.h
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Squirrel.framework/Versions/A/Modules/module.modulemap
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources/Info.plist
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources/ShipIt
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Frameworks/Squirrel.framework/Versions/A
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Info.plist
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/MacOS/flowtransitions
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/PkgInfo
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/app.coffee
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/assets/icons/mac/icon.icns
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/assets/icons/png/icon.png
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/assets/icons/win/icon.ico
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/config/default.json
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/backups/backup-2017-11-21 16.47.39.coffee
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/backups/backup-2017-11-21 16.47.39.vekter
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/backups/backup-2017-11-22 11.22.28.coffee
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/backups/backup-2017-11-22 11.22.28.vekter
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/backups/backup-2017-11-22 13.17.04.coffee
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/backups/backup-2017-11-22 13.17.04.vekter
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/backups/backup-2017-11-22 13.18.04.coffee
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/backups/backup-2017-11-22 13.19.04.coffee
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/backups/backup-2017-11-22 13.20.04.coffee
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/coffee-script.js
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/config.json
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/framer.generated.js
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/framer.init.js
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/framer.js
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/framer.modules.js
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/framer.vekter.js
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/images/cursor-active.png
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/images/cursor-active@2x.png
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/images/cursor.png
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/images/cursor@2x.png
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/images/icon-120.png
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/images/icon-152.png
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/images/icon-180.png
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/images/icon-192.png
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/images/icon-76.png
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/manifest.txt
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/preview.png
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/social-1200x630.png
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/social-800x600.png
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/social-80x80.png
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/social-880x460.png
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/style.css
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/framer/version
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/index.html
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/main.js
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/modules/flowTransitions.coffee
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/modules/myModule.coffee
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/package-lock.json
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/package.json
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/app/server.js
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/electron.asar
+release-builds/flowtransitions-darwin-x64/flowtransitions.app/Contents/Resources/electron.icns
+release-builds/flowtransitions-darwin-x64/LICENSE
+release-builds/flowtransitions-darwin-x64/LICENSES.chromium.html
+release-builds/flowtransitions-darwin-x64/version
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-console-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-datetime-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-debug-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-errorhandling-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-file-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-file-l1-2-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-file-l2-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-handle-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-heap-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-interlocked-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-libraryloader-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-localization-l1-2-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-memory-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-namedpipe-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-processenvironment-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-processthreads-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-processthreads-l1-1-1.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-profile-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-rtlsupport-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-string-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-synch-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-synch-l1-2-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-sysinfo-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-timezone-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-core-util-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-crt-conio-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-crt-convert-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-crt-environment-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-crt-filesystem-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-crt-heap-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-crt-locale-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-crt-math-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-crt-multibyte-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-crt-private-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-crt-process-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-crt-runtime-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-crt-stdio-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-crt-string-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-crt-time-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/api-ms-win-crt-utility-l1-1-0.dll
+release-builds/flowtransitions-win32-ia32/blink_image_resources_200_percent.pak
+release-builds/flowtransitions-win32-ia32/content_resources_200_percent.pak
+release-builds/flowtransitions-win32-ia32/content_shell.pak
+release-builds/flowtransitions-win32-ia32/d3dcompiler_47.dll
+release-builds/flowtransitions-win32-ia32/ffmpeg.dll
+release-builds/flowtransitions-win32-ia32/flowtransitions.exe
+release-builds/flowtransitions-win32-ia32/icudtl.dat
+release-builds/flowtransitions-win32-ia32/libEGL.dll
+release-builds/flowtransitions-win32-ia32/libGLESv2.dll
+release-builds/flowtransitions-win32-ia32/LICENSE
+release-builds/flowtransitions-win32-ia32/LICENSES.chromium.html
+release-builds/flowtransitions-win32-ia32/locales/am.pak
+release-builds/flowtransitions-win32-ia32/locales/ar.pak
+release-builds/flowtransitions-win32-ia32/locales/bg.pak
+release-builds/flowtransitions-win32-ia32/locales/bn.pak
+release-builds/flowtransitions-win32-ia32/locales/ca.pak
+release-builds/flowtransitions-win32-ia32/locales/cs.pak
+release-builds/flowtransitions-win32-ia32/locales/da.pak
+release-builds/flowtransitions-win32-ia32/locales/de.pak
+release-builds/flowtransitions-win32-ia32/locales/el.pak
+release-builds/flowtransitions-win32-ia32/locales/en-GB.pak
+release-builds/flowtransitions-win32-ia32/locales/en-US.pak
+release-builds/flowtransitions-win32-ia32/locales/es-419.pak
+release-builds/flowtransitions-win32-ia32/locales/es.pak
+release-builds/flowtransitions-win32-ia32/locales/et.pak
+release-builds/flowtransitions-win32-ia32/locales/fa.pak
+release-builds/flowtransitions-win32-ia32/locales/fake-bidi.pak
+release-builds/flowtransitions-win32-ia32/locales/fi.pak
+release-builds/flowtransitions-win32-ia32/locales/fil.pak
+release-builds/flowtransitions-win32-ia32/locales/fr.pak
+release-builds/flowtransitions-win32-ia32/locales/gu.pak
+release-builds/flowtransitions-win32-ia32/locales/he.pak
+release-builds/flowtransitions-win32-ia32/locales/hi.pak
+release-builds/flowtransitions-win32-ia32/locales/hr.pak
+release-builds/flowtransitions-win32-ia32/locales/hu.pak
+release-builds/flowtransitions-win32-ia32/locales/id.pak
+release-builds/flowtransitions-win32-ia32/locales/it.pak
+release-builds/flowtransitions-win32-ia32/locales/ja.pak
+release-builds/flowtransitions-win32-ia32/locales/kn.pak
+release-builds/flowtransitions-win32-ia32/locales/ko.pak
+release-builds/flowtransitions-win32-ia32/locales/lt.pak
+release-builds/flowtransitions-win32-ia32/locales/lv.pak
+release-builds/flowtransitions-win32-ia32/locales/ml.pak
+release-builds/flowtransitions-win32-ia32/locales/mr.pak
+release-builds/flowtransitions-win32-ia32/locales/ms.pak
+release-builds/flowtransitions-win32-ia32/locales/nb.pak
+release-builds/flowtransitions-win32-ia32/locales/nl.pak
+release-builds/flowtransitions-win32-ia32/locales/pl.pak
+release-builds/flowtransitions-win32-ia32/locales/pt-BR.pak
+release-builds/flowtransitions-win32-ia32/locales/pt-PT.pak
+release-builds/flowtransitions-win32-ia32/locales/ro.pak
+release-builds/flowtransitions-win32-ia32/locales/ru.pak
+release-builds/flowtransitions-win32-ia32/locales/sk.pak
+release-builds/flowtransitions-win32-ia32/locales/sl.pak
+release-builds/flowtransitions-win32-ia32/locales/sr.pak
+release-builds/flowtransitions-win32-ia32/locales/sv.pak
+release-builds/flowtransitions-win32-ia32/locales/sw.pak
+release-builds/flowtransitions-win32-ia32/locales/ta.pak
+release-builds/flowtransitions-win32-ia32/locales/te.pak
+release-builds/flowtransitions-win32-ia32/locales/th.pak
+release-builds/flowtransitions-win32-ia32/locales/tr.pak
+release-builds/flowtransitions-win32-ia32/locales/uk.pak
+release-builds/flowtransitions-win32-ia32/locales/vi.pak
+release-builds/flowtransitions-win32-ia32/locales/zh-CN.pak
+release-builds/flowtransitions-win32-ia32/locales/zh-TW.pak
+release-builds/flowtransitions-win32-ia32/msvcp140.dll
+release-builds/flowtransitions-win32-ia32/natives_blob.bin
+release-builds/flowtransitions-win32-ia32/node.dll
+release-builds/flowtransitions-win32-ia32/pdf_viewer_resources.pak
+release-builds/flowtransitions-win32-ia32/resources/app/app.coffee
+release-builds/flowtransitions-win32-ia32/resources/app/assets/icons/mac/icon.icns
+release-builds/flowtransitions-win32-ia32/resources/app/assets/icons/png/icon.png
+release-builds/flowtransitions-win32-ia32/resources/app/assets/icons/win/icon.ico
+release-builds/flowtransitions-win32-ia32/resources/app/config/default.json
+release-builds/flowtransitions-win32-ia32/resources/app/framer/backups/backup-2017-11-21 16.47.39.coffee
+release-builds/flowtransitions-win32-ia32/resources/app/framer/backups/backup-2017-11-21 16.47.39.vekter
+release-builds/flowtransitions-win32-ia32/resources/app/framer/backups/backup-2017-11-22 11.22.28.coffee
+release-builds/flowtransitions-win32-ia32/resources/app/framer/backups/backup-2017-11-22 11.22.28.vekter
+release-builds/flowtransitions-win32-ia32/resources/app/framer/backups/backup-2017-11-22 13.17.04.coffee
+release-builds/flowtransitions-win32-ia32/resources/app/framer/backups/backup-2017-11-22 13.17.04.vekter
+release-builds/flowtransitions-win32-ia32/resources/app/framer/backups/backup-2017-11-22 13.18.04.coffee
+release-builds/flowtransitions-win32-ia32/resources/app/framer/backups/backup-2017-11-22 13.19.04.coffee
+release-builds/flowtransitions-win32-ia32/resources/app/framer/backups/backup-2017-11-22 13.20.04.coffee
+release-builds/flowtransitions-win32-ia32/resources/app/framer/coffee-script.js
+release-builds/flowtransitions-win32-ia32/resources/app/framer/config.json
+release-builds/flowtransitions-win32-ia32/resources/app/framer/framer.generated.js
+release-builds/flowtransitions-win32-ia32/resources/app/framer/framer.init.js
+release-builds/flowtransitions-win32-ia32/resources/app/framer/framer.js
+release-builds/flowtransitions-win32-ia32/resources/app/framer/framer.modules.js
+release-builds/flowtransitions-win32-ia32/resources/app/framer/framer.vekter.js
+release-builds/flowtransitions-win32-ia32/resources/app/framer/images/cursor-active.png
+release-builds/flowtransitions-win32-ia32/resources/app/framer/images/cursor-active@2x.png
+release-builds/flowtransitions-win32-ia32/resources/app/framer/images/cursor.png
+release-builds/flowtransitions-win32-ia32/resources/app/framer/images/cursor@2x.png
+release-builds/flowtransitions-win32-ia32/resources/app/framer/images/icon-120.png
+release-builds/flowtransitions-win32-ia32/resources/app/framer/images/icon-152.png
+release-builds/flowtransitions-win32-ia32/resources/app/framer/images/icon-180.png
+release-builds/flowtransitions-win32-ia32/resources/app/framer/images/icon-192.png
+release-builds/flowtransitions-win32-ia32/resources/app/framer/images/icon-76.png
+release-builds/flowtransitions-win32-ia32/resources/app/framer/manifest.txt
+release-builds/flowtransitions-win32-ia32/resources/app/framer/preview.png
+release-builds/flowtransitions-win32-ia32/resources/app/framer/social-1200x630.png
+release-builds/flowtransitions-win32-ia32/resources/app/framer/social-800x600.png
+release-builds/flowtransitions-win32-ia32/resources/app/framer/social-80x80.png
+release-builds/flowtransitions-win32-ia32/resources/app/framer/social-880x460.png
+release-builds/flowtransitions-win32-ia32/resources/app/framer/style.css
+release-builds/flowtransitions-win32-ia32/resources/app/framer/version
+release-builds/flowtransitions-win32-ia32/resources/app/index.html
+release-builds/flowtransitions-win32-ia32/resources/app/main.js
+release-builds/flowtransitions-win32-ia32/resources/app/modules/flowTransitions.coffee
+release-builds/flowtransitions-win32-ia32/resources/app/modules/myModule.coffee
+release-builds/flowtransitions-win32-ia32/resources/app/package-lock.json
+release-builds/flowtransitions-win32-ia32/resources/app/package.json
+release-builds/flowtransitions-win32-ia32/resources/app/server.js
+release-builds/flowtransitions-win32-ia32/resources/electron.asar
+release-builds/flowtransitions-win32-ia32/snapshot_blob.bin
+release-builds/flowtransitions-win32-ia32/ucrtbase.dll
+release-builds/flowtransitions-win32-ia32/ui_resources_200_percent.pak
+release-builds/flowtransitions-win32-ia32/vcruntime140.dll
+release-builds/flowtransitions-win32-ia32/version
+release-builds/flowtransitions-win32-ia32/views_resources_200_percent.pak
+server.js

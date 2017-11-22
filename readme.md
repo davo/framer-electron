@@ -17,3 +17,11 @@ cd MyPrototype.framer && fep
 ```
 
 ##### Questions? Hit me up on Twitter: <a href="https://twitter.com/jaredpalmer">@jaredpalmer</a>
+
+##### Update
+
+New requirements
+
+
+brew cask install xquartz
+brew install wine
