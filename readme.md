@@ -7,7 +7,7 @@
 Based on [Framer Electron Preview](https://github.com/jaredpalmer/framer-electron-preview/) by Jared Palmer.
 
 ##### To Do
-- [ ] Simple local server for the prototype [avoid local file restrictions](https://github.com/koenbok/Framer/wiki/LocalLoading)
+- [x] Simple local server for the prototype [avoid local file restrictions](https://github.com/koenbok/Framer/wiki/LocalLoading)
 - [x] Create local instace of compiler (Mac)
 - [x] Export Framer Prototype as Mac App (tested on Mac OS Sierra)
 - [x] Export Framer Prototype as Windows App (tested on Windows 10 Development Environment)
