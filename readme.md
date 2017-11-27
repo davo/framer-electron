@@ -6,26 +6,40 @@
 
 Based on [Framer Electron Preview](https://github.com/jaredpalmer/framer-electron-preview/) by Jared Palmer.
 
-[Electron](http://electron.atom.io/) is a framework that allows developers to build cross platform desktop apps with JavaScript, HTML, and CSS. Since Framer.js is ultimately just javascript, running it inside of Electron is a simple way to preview your desktop prototype in a fully native context (i.e. outside of Framer Studio, in a native desktop window).
+##### To Do
+- [ ] Simple local server for the prototype [avoid local file restrictions](https://github.com/koenbok/Framer/wiki/LocalLoading)
+- [x] Create local instace of compiler (Mac)
+- [x] Export Framer Prototype as Mac App (tested on Mac OS Sierra)
+- [x] Export Framer Prototype as Windows App (tested on Windows 10 Development Environment)
+- [ ] Test Mac App on Mac OS High Sierra 
+- [ ] Code cleanup
+- [ ] Collect & document known issues
+- [ ] Update cli script
+- [ ] Update script instructions
+- [ ] Document requirements
+- [ ] Document usage of server.js via express
+- [ ] Screen record apps running on Windows / Mac
 
-![Framer Electron Preview](https://github.com/jaredpalmer/framer-electron-preview/blob/master/demo.gif)
-
-## Getting Started
+## Running your prototype as an Electron Instance
 From your command line:
 ```bash
-# Install the cli globally on your computer
-npm i -g framer-electron-preview
-
-# Open your (existing) Framer.js prototype folder and run `fep`
-cd MyPrototype.framer && fep
+npm run start
 ```
 
-##### Questions? Hit me up on Twitter: <a href="https://twitter.com/jaredpalmer">@jaredpalmer</a>
+## Mac OS App Requirements
 
-##### Update
-
-New requirements
-
-
+```bash
 brew cask install xquartz
 brew install wine
+```
+## Build a Electron based Mac Application
+From your command line:
+```bash
+npm run package-mac
+```
+## Build a Electron based Windows Application
+From your command line:
+```bash
+npm run package-win
+```
+
