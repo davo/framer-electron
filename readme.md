@@ -12,17 +12,17 @@ From your command line:
 npm run start
 ```
 
-## Mac OS App Requirements
+## Mac OS App Requirements to build Windows Apps
 ```bash
 brew cask install xquartz
 brew install wine
 ```
-## Build a Electron based Mac Application
+## Build an Electron based Mac App
 From your command line:
 ```bash
 npm run package-mac
 ```
-## Build a Electron based Windows Application
+## Build an Electron based Windows App
 From your command line:
 ```bash
 npm run package-win
